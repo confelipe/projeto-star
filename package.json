@@ -1,0 +1,23 @@
+{
+  "name": "star-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "swapi-node": "^0.6.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
