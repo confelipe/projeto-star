@@ -27,14 +27,14 @@ payload = {
 metodo: GET
 url: http://localhost:3001/star/planet/{string}
 
-Onde string pode ser substituido por "idPlanet" ou "name" que foram incluidos na rota anterior.
+Onde {string} pode ser substituido por "idPlanet" ou "name" que foram incluidos na rota anterior.
 
 4. Deletar planeta:
 
 metodo: DELETE
 url: http://localhost:3001/star/planet/{idPlanet}
 
-Onde obrigatoriamente deve ser informado o id do planeta que deseja deletar.
+Onde {idPlanet} deve ser substituido pelo id do planeta que deseja deletar.
 
 5. Deletar todos os planetas:
 
